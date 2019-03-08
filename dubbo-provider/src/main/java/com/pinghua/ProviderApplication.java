@@ -3,6 +3,7 @@ package com.pinghua;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 /**
  * Created by whp on 2019-03-07
  */

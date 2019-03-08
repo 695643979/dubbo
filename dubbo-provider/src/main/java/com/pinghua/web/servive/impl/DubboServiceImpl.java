@@ -11,6 +11,6 @@ public class DubboServiceImpl implements DubboService{
     @Override
     public void sayHello(String name) {
         System.out.println(name);
-        System.out.println("---dubbo 发布服务----");
+        System.out.println("---dubbo 生产者提供服务!----");
     }
 }

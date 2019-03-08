@@ -22,7 +22,7 @@ public class DubboController {
     public String sayHello() {
         System.out.println("dubbo test begin ...");
         dubboService.sayHello("consumer request service!");
-        return "dubbo test return! ";
+        return "dubbo test consumer return! ";
     }
 
 

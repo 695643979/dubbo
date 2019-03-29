@@ -104,5 +104,12 @@
             <artifactId>spring-boot-starter-amqp</artifactId>
         </dependency>
 
+        <!-- 使用jasypt加密Spring Boot应用中的敏感配置 https://blog.csdn.net/myle69/article/details/81052489   -->
+        <dependency>
+            <groupId>com.github.ulisesbocchio</groupId>
+            <artifactId>jasypt-spring-boot-starter</artifactId>
+            <version>1.16</version>
+        </dependency>
+
     </dependencies>
 </project>

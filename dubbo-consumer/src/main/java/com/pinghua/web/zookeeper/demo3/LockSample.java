@@ -1,4 +1,4 @@
-package com.pinghua.web.demo3;
+package com.pinghua.web.zookeeper.demo3;
 
 import org.apache.zookeeper.*;
 import org.apache.zookeeper.data.Stat;

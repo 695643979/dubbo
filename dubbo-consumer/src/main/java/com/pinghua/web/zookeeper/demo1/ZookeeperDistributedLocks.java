@@ -1,4 +1,4 @@
-package com.pinghua.web.demo1;
+package com.pinghua.web.zookeeper.demo1;
 
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;

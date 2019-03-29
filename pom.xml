@@ -16,6 +16,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <dubbo-spring-boot>1.0.0</dubbo-spring-boot>
+        <fastjson-version>1.2.47</fastjson-version>
     </properties>
     <modules>
         <module>dubbo-consumer</module>
@@ -76,6 +77,32 @@
             <artifactId>guava</artifactId>
             <version>16.0.1</version>
         </dependency>-->
+
+
+        <!-- redis集成 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+            <version>1.5.7.RELEASE</version>
+        </dependency>
+
+        <!--lombok依赖,如：@Slf4j-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.10</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson-version}</version>
+        </dependency>
+
+        <!-- rabbitmq集成 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
 
     </dependencies>
 </project>

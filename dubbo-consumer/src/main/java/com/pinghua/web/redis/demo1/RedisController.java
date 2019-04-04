@@ -3,6 +3,7 @@ package com.pinghua.web.redis.demo1;
 import com.pinghua.utils.JsonUtil;
 import com.pinghua.vo.request.HelloRequestVo;
 import com.pinghua.vo.response.ApiResponse;
+import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,6 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 @RestController
 @RequestMapping("/redisController")
+@Api(tags = "redis控制类")
 public class RedisController {
 
     private static final String redisOperation = "redis 操作类";

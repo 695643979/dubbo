@@ -17,6 +17,7 @@
         <java.version>1.8</java.version>
         <dubbo-spring-boot>1.0.0</dubbo-spring-boot>
         <fastjson-version>1.2.47</fastjson-version>
+        <swagger.version>2.7.0</swagger.version>
     </properties>
     <modules>
         <module>dubbo-consumer</module>
@@ -109,6 +110,34 @@
             <groupId>com.github.ulisesbocchio</groupId>
             <artifactId>jasypt-spring-boot-starter</artifactId>
             <version>1.16</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${swagger.version}</version>
+        </dependency>
+
+        <!-- 集成swagger2组件 -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${swagger.version}</version>
+        </dependency>
+        <!--Swagger-ui 密码配置配置-->
+        <!--<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>-->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>20.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-bean-validators</artifactId>
+            <version>${swagger.version}</version>
         </dependency>
 
     </dependencies>
